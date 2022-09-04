@@ -11,3 +11,4 @@ urlpatterns = [
     path('', views.IndexView.as_view()),
     path('login/', views.LoginView.as_view()),
     path('news/', views.NewsView.as_view()),
+]
