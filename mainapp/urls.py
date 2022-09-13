@@ -17,5 +17,5 @@ urlpatterns = [
     ),
     path("contacts/", views.ContactsView.as_view(), name="contacts"),
     path("doc_site/", views.DocSiteView.as_view(), name="doc_site"),
-    path("login/", views.LoginView.as_view(), name="login"),
+
 ]
